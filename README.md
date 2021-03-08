@@ -1,5 +1,9 @@
 # Delani Studio
+
 # Author: Elvis Mwenda
+
+# Link : https://github.com/KingNEM/IP3.git
+
 # Description
 This is a project that illustrates an application
 that uses Bootstrap and jQuery to create a landing page 
