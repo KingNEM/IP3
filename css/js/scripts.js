@@ -17,3 +17,11 @@ $(document).ready(function() {
         $(this).css("background-color", "lightcyan");
         });
 });
+function validateForm() {
+  var x = document.forms["myForm"]["fname"].value;
+  var y = document.forms["myForm"]["femail"].value;
+  var k = document.forms["myForm"]["fmessage"].value;
+  if (x == "Elvis") {
+    alert("Elvis we have received your message.Thank you for reaching out to us");
+    return false;
+  }
