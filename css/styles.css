@@ -6,11 +6,9 @@ body {
 #element {
     background-image: url(img/mag.jpeg);
     width: 300px;
-    border: 15px; solidgray;
-    padding: 400px;
     margin: 10px;
     font-size: 30px;
-    text-align: auto;
+    text-align: centre;
 
 }
 h1 {
@@ -42,6 +40,21 @@ h3 {
     text-align: centre;
     
 }
+#h6 {
+    font-style: oblique;
+    font-weight: bold;
+    text-align: center;
+}
+#h7 {
+    font-style: oblique;
+    font-weight: bold;
+    text-align: center;
+}
+#h8 {
+    font-style: oblique;
+    font-weight: bold;
+    text-align: center;
+}
 h4 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
@@ -51,7 +64,8 @@ h4 {
 }
 .content {
 height: 25%;
-length: 25%;
+columns: 100px;
+row-gap: 20px;
 width: 25%;
 margin: 8px -16px;
 padding: 10px;
@@ -66,4 +80,17 @@ padding: 10px;
     font-size: 20px;
     font-family: 'Courier New', Courier, monospace;
 }
+.warlus {
+    display: none;
+}
+p {
+    cursor: pointer;
+    color: #0088cc;
+    font-style: redressed;
+    }
+    
+    p:hover {
+    text-decoration: underline;
+    background-color: lightcyan;
+    }
 }
