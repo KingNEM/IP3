@@ -19,6 +19,7 @@ $(document).ready(function() {
 });
 
 function validateForm() {
+  {
   var x = document.forms["myForm"]["fname"].value;
   var y = document.forms["myForm"]["femail"].value;
   var k = document.forms["myForm"]["fmessage"].value;
@@ -28,4 +29,5 @@ function validateForm() {
   }
   inputRef = {(elm) => {  this.emailInput = elm;}}
   this.emailInput.value
+}
 }
