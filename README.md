@@ -12,5 +12,5 @@ It has icons that hover and the user is alerted that
 his/message has been received after they have submitted.
 
 # JQuery liblary
-# Copyright @ (2021) Elvismwenda
+# Copyright (c) (2021) Elvismwenda
 # License: MIT license used
