@@ -17,6 +17,7 @@ $(document).ready(function() {
         $(this).css("background-color", "lightcyan");
         });
 });
+
 function validateForm() {
   var x = document.forms["myForm"]["fname"].value;
   var y = document.forms["myForm"]["femail"].value;
@@ -25,3 +26,6 @@ function validateForm() {
     alert("Elvis we have received your message.Thank you for reaching out to us");
     return false;
   }
+  inputRef = {(elm) => {  this.emailInput = elm;}}
+  this.emailInput.value
+}
