@@ -4,10 +4,13 @@ body {
     background-color: rgb(166, 255, 0);
     width: 100%;
     height: 100%;
+    padding: 10px;
+    margin: 10px;
 }
 #element {
     background-image: url(img/mag.jpeg);
     width: 100%;
+    height: 100%;
     margin: 10px;
     font-size: 30px;
     text-align: centre;
@@ -42,7 +45,6 @@ h1 {
 h3 {
     font-style: italic;
     text-decoration-color: #80006b;
-    padding: 100px;
     text-decoration-line: underline;
     text-align: center;
     font-size: x-large;
@@ -51,6 +53,16 @@ h3 {
     text-align: centre;
     
 }
+
+h4 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    font-style: oblique;
+    font-size: larger;
+    text-shadow: navy;
+}
+
+  
 #h6 {
     font-style: oblique;
     font-weight: bold;
@@ -100,8 +112,21 @@ p {
     font-style: redressed;
     }
     
-    p:hover {
+p:hover {
     text-decoration: underline;
     background-color: lightcyan;
     }
+
+.container5 {
+    background-image: url(img/back2.jpeg);
+    font-size: 20px;
+    width: 100%;
+    height: 100%;
+    font-family: 'Courier New', Courier, monospace;
+}
+.h5 {
+    font-style: oblique;
+    text-align: center;
+    font-size: larger;
+  }
 }
