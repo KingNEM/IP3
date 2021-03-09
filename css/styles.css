@@ -2,6 +2,9 @@ body {
     border-style: double;  dotted;
     border-color: green;
     background-color: rgb(166, 255, 0);
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
 }
 #element {
     background-image: url(img/mag.jpeg);
@@ -31,7 +34,6 @@ h1 {
 h3 {
     font-style: italic;
     text-decoration-color: #80006b;
-    padding: 100px;
     text-decoration-line: underline;
     text-align: center;
     font-size: x-large;
@@ -40,6 +42,16 @@ h3 {
     text-align: centre;
     
 }
+
+h4 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    font-style: oblique;
+    font-size: larger;
+    text-shadow: navy;
+}
+
+  
 #h6 {
     font-style: oblique;
     font-weight: bold;
@@ -55,31 +67,6 @@ h3 {
     font-weight: bold;
     text-align: center;
 }
-h4 {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    text-align: center;
-    font-style: oblique;
-    font-size: larger;
-    text-shadow: navy;
-}
-.content {
-height: 25%;
-columns: 100px;
-row-gap: 20px;
-width: 25%;
-margin: 8px -16px;
-padding: 10px;
-}
-  h5 {
-    font-style: oblique;
-    text-align: center;
-    font-size: larger;
-  }
-.container5 {
-    background-image: url(img/back2.jpeg);
-    font-size: 20px;
-    font-family: 'Courier New', Courier, monospace;
-}
 .warlus {
     display: none;
 }
@@ -89,8 +76,19 @@ p {
     font-style: redressed;
     }
     
-    p:hover {
+p:hover {
     text-decoration: underline;
     background-color: lightcyan;
     }
+
+.container5 {
+    background-image: url(img/back2.jpeg);
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.h5 {
+    font-style: oblique;
+    text-align: center;
+    font-size: larger;
+  }
 }
