@@ -2,7 +2,7 @@
 
 # Author: Elvis Mwenda
 
-# Link : https://github.com/KingNEM/IP3.git
+# Link :  https://kingnem.github.io/IP3/
 
 # Description
 This is a project that illustrates an application
