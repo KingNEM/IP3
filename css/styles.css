@@ -47,7 +47,7 @@ h3 {
     font-size: x-large;
 }
 #container{
-    text-align: centre;
+    align-items: centre;
     
 }
 
@@ -75,16 +75,13 @@ h4 {
     font-weight: bold;
     text-align: center;
 }
-.warlus {
-    display: none;
-}
 p {
     cursor: pointer;
     color: #0088cc;
     font-style: redressed;
     }
     
-p:hover {
+h7:hover {
     text-decoration: underline;
     background-color: lightcyan;
     }
@@ -101,8 +98,8 @@ p:hover {
     text-align: center;
     font-size: larger;
   }
-  card-img-top {
-    height: 200px
+.card-img-top {
+    height: 100px
 }
 
 .card-body {
