@@ -101,4 +101,21 @@ p:hover {
     text-align: center;
     font-size: larger;
   }
+  card-img-top {
+    height: 200px
+}
+
+.card-body {
+    height: 10px
+}
+
+.card-footer {
+    height: 100px;
+}
+
+.card-img-top:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px;
+}
+
 }
