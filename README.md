@@ -2,7 +2,7 @@
 
 # Author: Elvis Mwenda
 
-# Link :  https://kingnem.github.io/IP3/
+# Link :  https://kingnem.github.io/IP3//css/bootstrap.css/
 
 # Description
 This is a project that illustrates an application
